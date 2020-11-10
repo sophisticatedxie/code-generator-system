@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: log-center-service
+  profiles:
+    active: "@profileActive@"
+server:
+  port: 8082
